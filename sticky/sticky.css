@@ -1,0 +1,28 @@
+body{
+    background: grey;
+    height:3000px;
+}
+
+.grey{
+    background-color: lightgrey;
+    height:2000px;
+    margin-top:500px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.image{
+    width:400px;
+    position:sticky;
+    top:100px;
+    align-self: flex-start;
+}
+.textbox{
+    display:flex;
+    height:100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.text{
+    width:300px;
+}

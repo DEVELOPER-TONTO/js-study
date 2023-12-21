@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>form-test</title>
+  <meta charset="UTF-8" />
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+  <div class="main">
+    <div class="id">
+        <span>아이디</span>
+        <input id="id" type="text"/>
+    </div>
+    <div class="id">
+        <span>비밀번호</span>
+        <input id="pwd" type="password"/>
+    </div>
+    <div class="btn">
+        <button id="login-btn">로그인</button>
+        <button id="user-btn">회원가입</button>
+    </div>
+    <div class="none">
+        <div id="userId"></div>
+        <div id="userPwd"></div> <!--인덱스 html에서 보이면 안되지만 존재해야하기때문에 none으로 가림 .. 안그럼 오류가 생김-->
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>

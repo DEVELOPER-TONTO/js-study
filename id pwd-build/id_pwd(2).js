@@ -8,6 +8,10 @@ function btn2(){
     document.getElementsByClassName("id-pwd")[0].style.display = "block"
 }
 
-function closing(){
-    document.getElementsByClassName("id-pwd")[0].style.display = "none"
-}
+// function closing(){
+//     document.getElementsByClassName("id-pwd")[0].style.display = "none"
+// }
+
+document.getElementsByClassName('shut-down')[0].addEventListener('click',function(){
+    document.getElementsByClassName('id-pwd')[0].style.display="none";
+});
